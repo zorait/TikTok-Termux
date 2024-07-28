@@ -127,7 +127,7 @@ def download_tiktok_video(apikey, tiktok_url):
         print_with_color(f"An error occurred: {e}", Fore.RED)
 
 def main():
-    apikey = 'zoracom'
+    apikey = 'YOUR_APIKEY_HERE'
     while True:
         banner_text, description_text = generate_banner()
         full_text = banner_text + '\n' + description_text
